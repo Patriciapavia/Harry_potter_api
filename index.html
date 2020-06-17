@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    /> -->
+
+    <title>Document</title>
+  </head>
+  <body class="bg-dark">
+    <style>
+      body {
+       background-color: black;
+        
+      }
+      header {
+           /* width: 100%;
+           height: 70px;
+           display: flex;
+           align-items: center;
+           justify-content: space-around;
+           background: #232323;
+           color: #ccc; */
+           width: 100%;
+           height: 80vh;
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-image: url(./image/logo.jpg);
+          }
+.nav-list{
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+      
+     
+     }
+     .btn{
+       padding: 1rem;
+       margin: 3px;
+       background-color: black;
+
+       color: white;
+       box-shadow: 5px 5px 5px 5px#ccc;
+     }
+   .navlink {
+        list-style: none;
+        margin: 0;
+        
+   }
+  
+ .displays{
+  position: relative;
+  margin: auto;
+  color: white;
+  display: flex;   
+  flex-wrap: wrap;  
+  height: 100vh;
+  width: 50%;
+  align-items: center;
+   
+ }
+ .display{
+  width: 400px;
+  height: 400px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+ }
+ 
+      .house-output {
+        position: relative;
+        margin: auto;
+        color: white;
+        background-color: black;
+        height: 100vh;
+        width: 50%;
+        align-items: center;
+      }
+
+
+      
+
+
+
+
+
+    </style>
+      <header>
+
+
+        
+      </header>
+      <nav class="navbar">
+          <ul class="nav-list">
+            <li class="nav-link"><button class="btn" id="button-house">Get All Houses</button></li>
+            <li class="nav-link"><button class="btn" id="sorting-hat">Sorting Hat</button></li>
+            <li class="nav-link"><button class="btn"  id="character">Find All Character</button></li>
+            <li class="nav-link"><button class="btn" id="spells">Get All Spells</button></li>
+            
+          </ul>
+        </nav>
+        
+      <div class="displays">
+        
+        <div class="display">
+          
+          <img src="./image/house.jpeg"style="width: 400px;" alt="">
+          
+        </div>
+        <div class="display">
+          <img src="./image/sorthat.jpg" style="width: 400px;" alt="">
+          
+        </div>
+        <div class="display">
+          <img src="./image/character.jpeg" style="width: 400px;" alt="">
+          
+        </div>
+        <div class="display">
+          <img src="./image/spell.jpeg" style="width: 400px height:400px;"  alt="">
+          
+        </div>
+
+      </div>
+
+      </div>
+
+      <div class="house-output">
+        <ul class="output"></ul>
+      </div>
+
+      <div class="sorting-hat-output">
+        <ul class="hat-output"></ul>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
